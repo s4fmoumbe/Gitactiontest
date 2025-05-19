@@ -1,9 +1,12 @@
 def hello():
-  print("hi")
+    print("hi")
 
-  
+
 def bye():
+    print("bye")
 
-  
-  print("bye")
-print(hello())
+
+# Call the functions
+hello()   # This will print "hi"
+bye()     # This will print "bye"
+
